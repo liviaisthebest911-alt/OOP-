@@ -1,6 +1,6 @@
 package Sản_Phẩm_Nội_Thất;
 
-class DiscountFurniture implements Furniture{
+ class DiscountFurniture implements Furniture{
     private String productId;
     private String productName;
     private double rating;
@@ -44,7 +44,12 @@ class DiscountFurniture implements Furniture{
         return tongThuc;
     }
 
-    @Override
+     @Override
+     public boolean canGetPromotion() {
+         return false;
+     }
+
+     @Override
     public boolean canGetDiscount() {
         if(quantity >= 3 && rating >= 8 ) return true;
         return false;

@@ -45,6 +45,12 @@ class RegularFurniture implements Furniture {
         }
         return false;
     }
+
+    @Override
+    public boolean canGetDiscount() {
+        return false;
+    }
+
     @Override
     public String getQualityRank() {
         String[] parts= {"Yếu","Trung Bình","Khá","Giỏi","Xuất sắc"};
@@ -62,8 +68,8 @@ class RegularFurniture implements Furniture {
         return "[NOI THAT THUONG] Mã SP: "+productId+"\n"+
                 "Tên SP: "+productName+"\n"+
                 "Đánh giá: "+rating+"\n" +
-                "Số lượng: "+quantity+"\n"+
-                "Giảm giá: "+discountAmount+" VNĐ";
+                "Số lượng: "+quantity+"\n";
+
 
     }
 }

@@ -7,6 +7,9 @@ interface Furniture {
     int getQuantity();
     double calculateTotalPrice();
     boolean canGetPromotion();
+
+    boolean canGetDiscount();
+
     String getQualityRank();
 
 

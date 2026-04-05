@@ -4,7 +4,7 @@ import java.util.*;
 class FurnitureManager {
     private List<Furniture> furnitures;
 
-    public Furniture(){
+    public void Furniture(){
         this.furnitures = new ArrayList<>();
     }
 

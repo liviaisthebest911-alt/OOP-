@@ -1,0 +1,3 @@
+Stock,AAPL,Apple,150,HOSE,10
+Crypto,BTC,Bitcoin,30000,Bitcoin,0.5
+Stock,MSFT,Microsoft,280,HNX,5
