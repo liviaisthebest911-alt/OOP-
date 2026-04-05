@@ -16,7 +16,8 @@ abstract class Asset {
 
 
     public String toString(){
-        return String.format("[%s] %s | Price: %.2f",symbol,name,symbol);
+        return String.format("Symbol: %s, Name: %s, Base Price: %.2f",
+                symbol, name, basePrice);
     }
 
 

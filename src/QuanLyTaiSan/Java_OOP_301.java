@@ -10,7 +10,7 @@ public class Java_OOP_301 {
         List<Double> quantities = new ArrayList<>();
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Dell\\IdeaProjects\\OOP\\data.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("data.txt"));
             String line;
 
             while ((line = br.readLine()) != null) {
