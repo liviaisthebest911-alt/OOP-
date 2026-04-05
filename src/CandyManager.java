@@ -81,7 +81,7 @@ public class CandyManager
     }
 
     public List<Candy> sortByName(){
-        ArrayList<Candy> sorted = new ArrayList<>();
+        ArrayList<Candy> sorted = new ArrayList<>(candies);
         int n = sorted.size();
 
         for(int i = 0 ; i < n ; i ++){
